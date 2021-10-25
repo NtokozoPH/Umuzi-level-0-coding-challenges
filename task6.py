@@ -1,6 +1,6 @@
 def maximum(*numbers):
-    max_num = numbers[0]   # initialising a maximum number as the first number
+    max_num = numbers[0]
     for num in numbers:
-        if num > max_num:  # checking if current number is greater than current maximum number
-            max_num = num  # updating maximum number if less the current number
-    return max_num    
+        if num > max_num:
+            max_num = num
+    return max_num
