@@ -1,12 +1,12 @@
-x = 1 + 1 * 2           # multiplication first, BODMAS
+x = 1 + 1 * 2
 
-y = (1 + 1) * 2         # Brackets Off first, BODMAS
+y = (1 + 1) * 2
 
-z = 1 + ( 1 * 2)        # Brackets Off first, BODMAS
+z = 1 + ( 1 * 2)
 
-a = 1 + 1 * 2 / 2       # Division first, then Multiplication lastly Addition
+a = 1 + 1 * 2 / 2
 
-b = (1 + 1 * 2 ) /  2   # Brackets off first, multplication taking first priority within brackets
+b = (1 + 1 * 2 ) /  2
 
 print(x)
 print(y)
